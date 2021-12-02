@@ -1,0 +1,44 @@
+<html>
+
+<head>
+	<title>MENU TOMATO BASE</title>
+</head>
+
+<body>
+	<form action="http://localhost:8080/order" method="POST">
+
+		<label for="MenuName">Menu Name:</label><!-- the label tag specifies which input this text is referring to -->
+		<input type="text" name="MenuName" id="MenuPrice">
+		<br>
+		<br>
+		<label for="MenuPrice"> Menu Price:</label>
+		<input type="text" name="MenuPrice" id="MenuPrice">
+		<br>
+		<br>
+		<label for="address">Address:</label>
+		<input type="text" name="address" id="address">
+		<br>
+		<br>
+
+		<!--<input type="text" name="menu" id="menu">-->
+		<label for="order">Order:</label>
+		<select name="order" id="order">
+			<option>Puget Pounder</option>
+			<option>Cherry Bomb</option>
+			<option>Wood Butcher</option>
+			<option>John Candy</option>
+			<option>Ultimate Pepperoni</option>
+			<option>Kitchen Sink</option>
+			<option>Chicken Club</option>
+			<option>Hurricane</option>
+			<option>Hawaiian</option>
+			<option>Tree Hugger</option>
+			<option>Organic Drift</option>
+			<option>Mozzarella, provolone</option>
+		</select>
+
+		<button>Submit</button>
+	</form>
+</body>
+
+</html>
